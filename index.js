@@ -49,3 +49,16 @@ function reduceToAllTrue(sourceArray){
 return val;
 
 }
+function reduceToAnyTrue(sourceArray){
+  let val = false;
+  for(let i = 0;i<sourceArray.length;i++){
+    if(sourceArray[i])
+      val = true;
+    else {
+        val = false;
+      }
+   }
+
+return val;
+
+}
