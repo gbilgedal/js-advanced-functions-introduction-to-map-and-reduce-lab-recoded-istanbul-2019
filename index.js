@@ -46,6 +46,6 @@ function reduceToAllTrue(sourceArray){
       }
    }
 
-
+return val;
 
 }
