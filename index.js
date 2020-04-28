@@ -43,4 +43,7 @@ function reduceToAllTrue(sourceArray){
       val = true;
 
    }
+   else {
+     val = false;
+   }
 }
