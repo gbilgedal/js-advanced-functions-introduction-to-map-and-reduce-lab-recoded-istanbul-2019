@@ -29,11 +29,14 @@ function mapToSquare(sourceArray){
 }
 function reduceToTotal(sourceArray, startingPoint){
   let total;
-  if(startingPoint){
+  if(startingPoint!=undefined){
     total += startingPoint;
   }
   for(let i = 0;i<sourceArray.length;i++){
     total += sourceArray[i];
   }
   return total;
+}
+function reduceToAllTrue(sourceArray){
+  
 }
