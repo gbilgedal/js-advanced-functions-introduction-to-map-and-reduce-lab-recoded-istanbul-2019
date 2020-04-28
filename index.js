@@ -33,7 +33,7 @@ function reduceToTotal(sourceArray, startingPoint){
     total += startingPoint;
   }
   for(let i = 0;i<sourceArray.length;i++){
-    startingPoint += sourceArray[i];
+    total += sourceArray[i];
   }
   return total;
 }
