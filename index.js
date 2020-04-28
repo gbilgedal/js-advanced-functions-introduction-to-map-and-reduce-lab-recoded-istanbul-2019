@@ -1,27 +1,27 @@
 // Your code here
 function mapToNegativize(sourceArray){
-  newArray = [];
+  let newArray = [];
   for(let i = 0;i<sourceArray.length;i++){
     newArray.push(sourceArray[i]*-1);
   }
   return newArray;
 }
 function mapToNoChange(sourceArray){
-  newArray = [];
+  let newArray = [];
   for(let i = 0;i<sourceArray.length;i++){
     newArray.push(sourceArray[i]);
   }
   return newArray;
 }
 function mapToDouble(sourceArray){
-  newArray = [];
+  let newArray = [];
   for(let i = 0;i<sourceArray.length;i++){
     newArray.push(sourceArray[i]*2);
   }
   return newArray;
 }
 function mapToSquare(sourceArray){
-  newArray = [];
+  let newArray = [];
   for(let i = 0;i<sourceArray.length;i++){
     newArray.push(sourceArray[i]*sourceArray[i]);
   }
