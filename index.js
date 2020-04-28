@@ -45,8 +45,7 @@ function reduceToAllTrue(sourceArray){
         val = false;
       }
    }
-  
+
 
 
 }
-
