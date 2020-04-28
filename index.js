@@ -53,12 +53,7 @@ function reduceToAnyTrue(sourceArray){
   let val = false;
   for(let i = 0;i<sourceArray.length;i++){
     if(sourceArray[i])
-      val = true;
-    else {
-        val = false;
-      }
+      return true;
    }
-
-return val;
-
+   return false;
 }
